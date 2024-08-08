@@ -1,0 +1,362 @@
+#mainContainer {
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+}
+.menuBar {
+  display: flex;
+  margin-bottom: 12px;
+}
+.logoimage {
+  height: 30px;
+  width: 30px;
+  margin-left: 27px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.searchBar {
+  width: 20%;
+}
+.mainImageSection {
+  background-size: cover;
+  border-radius: 25px;
+}
+#mainImage {
+  object-fit: cover;
+  height: 600px;
+  border-radius: 25px;
+}
+.textContainer {
+  text-align: left;
+  width: 40%;
+  margin-left: 15px;
+}
+.saleTopic {
+  width: 30%;
+}
+.winterSaleCloths {
+  object-fit: cover;
+  height: 400px;
+}
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.3s linear;
+}
+
+.hovereffect a.info {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin: 10px 0 0;
+  padding: 7px 14px;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -ms-transform: translatey(0);
+  -webkit-transform: translatey(0);
+  transform: translatey(0);
+}
+
+.hovereffect:hover a.info {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+/* For See More Button */
+.line-container {
+  position: relative;
+  text-align: center;
+  margin: 50px 0;
+}
+.line {
+  height: 1px;
+  background-color: #000;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.btn-overlay {
+  position: relative;
+  background-color: white;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  z-index: 1;
+}
+#colabProfileImage {
+  object-fit: cover;
+  height: 8rem;
+  width: 8rem;
+  margin-left: auto;
+}
+#colabProfileImage2 {
+  object-fit: cover;
+  height: 2.5rem;
+  width: 2.5rem;
+  /* margin-left: auto; */
+}
+#exclusiveImageBackground {
+  position: relative;
+  background: url("./images/suit.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 50px 20px;
+}
+#exclusiveImageoverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.registerBtn {
+  margin-top: 10rem;
+}
+
+/* Best selling */
+.bestSelling {
+  background-color: antiquewhite;
+}
+.best-seller-section {
+  padding: 50px 20px;
+}
+.best-seller-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.product-card {
+  border: none;
+  text-align: center;
+}
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.product-card h5 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.product-card .price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.product-card .rating {
+  margin-top: 10px;
+}
+.see-more-btn {
+  margin-top: 20px;
+}
+.hero-image {
+  max-width: 100%;
+}
+.bestSelImages {
+  height: 20rem;
+  object-fit: cover;
+}
+
+/* Sliding Text */
+.marquee-w {
+  position: relative;
+  display: block;
+  width: 100%; /* Set the width to 100% to cover the entire screen */
+  height: 140px;
+  overflow: hidden;
+}
+
+.marquee {
+  position: absolute;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  min-width: 100%;
+  height: 100%;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  font-family: "poppinsbold";
+  text-align: center;
+  -webkit-text-stroke: 1px #0d0d0d;
+  white-space: nowrap;
+  min-width: 100%;
+  height: 100%;
+  line-height: 140px;
+  font-size: 50px;
+  animation: marquee 30s linear infinite;
+}
+
+.marquee2 span {
+  animation-delay: 15s;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+/* Email and Learn More card */
+.ELCard {
+  position: relative;
+  background: url("./images/fashion1.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 50px 20px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.content {
+  position: relative;
+  z-index: 2;
+}
+.content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.content p {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+.txtArea {
+  width: 30%;
+}
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.subscribe-form input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 30px 0 0 30px;
+  outline: none;
+}
+.subscribe-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 30px 30px 0;
+  background: #ffc107;
+  color: white;
+  cursor: pointer;
+}
+.learn-more {
+  margin-left: 20px;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  padding: 40px 0;
+  text-align: center;
+}
+.footer .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.footer .tagline {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.footer .footer-links {
+  margin-top: 20px;
+}
+.footer .footer-links h5 {
+  font-weight: bold;
+}
+.footer .footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer .footer-links ul li {
+  margin: 5px 0;
+}
+.footer .footer-links ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.footer .footer-links ul li a:hover {
+  text-decoration: underline;
+}
+.footer .bottom-bar {
+  border-top: 1px solid #dee2e6;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.countDown {
+  margin-left: auto;
+}
+.daysAndHrs {
+  margin-left: auto;
+  margin-right: 8%;
+  max-width: 40%;
+}
+
+/* Star rating */
+.checked {
+  color: orange;
+}
+
+/* Last Links */
+.lastLinks {
+  color: #0d0d0d;
+}

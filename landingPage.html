@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta http-equiv="refresh" content="3" /> -->
+    <title>Fashion for All, Every Day</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="landingPage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div id="mainContainer">
+      <!-- Menu Bar-->
+      <div class="menuBar d-flex">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-asterisk logoimage"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"
+          />
+        </svg>
+        <button
+          style="margin-left: 12px"
+          type="button"
+          class="btn btn-outline-dark border-0"
+        >
+          AboutUs
+        </button>
+        <button type="button" class="btn btn-outline-dark border-0">
+          Collection
+        </button>
+        <button type="button" class="btn btn-outline-dark border-0">
+          Contact
+        </button>
+        <div class="form-outline searchBar ms-auto" data-mdb-input-init>
+          <input
+            type="search"
+            id="form1"
+            class="form-control rounded-pill"
+            placeholder="Search"
+            aria-label="Search"
+          />
+        </div>
+        <div class="my-1 me-4 ms-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            fill="currentColor"
+            class="bi bi-cart"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+            />
+          </svg>
+          <a
+            class="align-items-center text-decoration-none text-reset my-1"
+            href="#"
+          >
+            Cart
+          </a>
+        </div>
+      </div>
+
+      <!-- Main Image Section -->
+      <div class="mainImageSection card text-bg-light">
+        <img src="./images/image4fashion.jpg" class="card-img" id="mainImage" />
+        <div class="card-img-overlay">
+          <div
+            class="textContainer position-absolute top-50 start-10 translate-middle-y"
+          >
+            <h1>Fashion for All, Every Day</h1>
+            <p>
+              Discover your personal style and make a statement with every
+              outfit. Shop with us to elevate your wardrobe and bring your
+              fashion game to the next level.
+            </p>
+            <a href="#" class="btn btn-outline-dark rounded-pill">Shop Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-3 mx-4 my-4 d-flex">
+        <p class="fs-5 text-center">
+          Browse through our carefully curated collection of high-quality
+          clothing and accessories ----------------- featuring the latest trends
+          and styles
+        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-asterisk logoimage"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"
+          />
+        </svg>
+      </div>
+      <hr />
+
+      <!-- Winter Sale section -->
+      <div>
+        <div>
+          <div class="mt-3 mx-4 saleTopic">
+            <p class="fs-3 fw-bolder">Winter Sale</p>
+          </div>
+          <div></div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card border-0">
+              <div class="hovereffect">
+                <img
+                  src="./images/winterSale1.jpg"
+                  class="card-img-top img-fluid winterSaleCloths rounded-4"
+                  alt="..."
+                />
+                <div class="overlay">
+                  <a
+                    class="info rounded-pill"
+                    style="margin-top: 14rem"
+                    href="#"
+                    >Add to cart</a
+                  >
+                  <br />
+                  <a class="info border-0 rounded-pill" href="#">Size Guide</a>
+                </div>
+              </div>
+              <div class="mt-2 d-flex ms-2">
+                <div>
+                  <h5 class="card-title">Dress 1</h5>
+                  <p class="card-text fw-bolder">$80.00</p>
+                </div>
+
+                <button
+                  class="btn btn-outline-dark rounded-pill ms-auto my-2 me-2"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <div class="hovereffect">
+                <img
+                  src="./images/winterSale2.jpg"
+                  class="card-img-top img-fluid winterSaleCloths rounded-4"
+                  alt="..."
+                />
+                <div class="overlay">
+                  <a
+                    class="info rounded-pill"
+                    style="margin-top: 14rem"
+                    href="#"
+                    >Add to cart</a
+                  >
+                  <br />
+                  <a class="info border-0 rounded-pill" href="#">Size Guide</a>
+                </div>
+              </div>
+              <div class="mt-2 d-flex ms-2">
+                <div>
+                  <h5 class="card-title">Dress 2</h5>
+                  <p class="card-text fw-bolder">$80.00</p>
+                </div>
+
+                <button
+                  class="btn btn-outline-dark rounded-pill ms-auto my-2 me-2"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <div class="hovereffect">
+                <img
+                  src="./images/winterSale3.jpg"
+                  class="card-img-top img-fluid winterSaleCloths rounded-4"
+                  alt="..."
+                />
+                <div class="overlay">
+                  <a
+                    class="info rounded-pill"
+                    style="margin-top: 14rem"
+                    href="#"
+                    >Add to cart</a
+                  >
+                  <br />
+                  <a class="info border-0 rounded-pill" href="#">Size Guide</a>
+                </div>
+              </div>
+              <div class="mt-2 d-flex ms-2">
+                <div>
+                  <h5 class="card-title">Dress 3</h5>
+                  <p class="card-text fw-bolder">$80.00</p>
+                </div>
+
+                <button
+                  class="btn btn-outline-dark rounded-pill ms-auto my-2 me-2"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <div class="hovereffect">
+                <img
+                  src="./images/winterSale4.jpg"
+                  class="card-img-top img-fluid winterSaleCloths rounded-4"
+                  alt="..."
+                />
+                <div class="overlay">
+                  <a
+                    class="info rounded-pill"
+                    style="margin-top: 14rem"
+                    href="#"
+                    >Add to cart</a
+                  >
+                  <br />
+                  <a class="info border-0 rounded-pill" href="#">Size Guide</a>
+                </div>
+              </div>
+              <div class="mt-2 d-flex ms-2">
+                <div>
+                  <h5 class="card-title">Dress 4</h5>
+                  <p class="card-text fw-bolder">$80.00</p>
+                </div>
+
+                <button
+                  class="btn btn-outline-dark rounded-pill ms-auto my-2 me-2"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="line-container">
+          <div class="line"></div>
+          <button class="btn-overlay btn btn-outline-dark rounded-pill">
+            See More
+          </button>
+        </div>
+      </div>
+
+      <!-- Collaboration Section -->
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card rounded-4 border-0">
+            <div class="card d-flex rounded-4 border-0 d-flex">
+              <div class="row mb-2">
+                <div class="col ms-2">
+                  <h1 class="card-title">Collaboration x</h1>
+                  <h1 class="card-title" style="color: orange;">James Visual</h1>
+                  <p class="card-text fs-5">
+                    Elevate your style with our exclusive collaboration with a
+                    good designer
+                  </p>
+                </div>
+                <div class="col-md-3">
+                  <img
+                    src="./images/colProfile.jpg"
+                    id="colabProfileImage"
+                    class="card-img-top rounded-circle"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-2">
+              <div class="col">
+                <div class="card border-0">
+                  <img
+                    src="./images/commingSoon1.jpg"
+                    class="card-img-top img-fluid rounded-4"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0">
+                  <img
+                    src="./images/commingSoon2.jpg"
+                    class="card-img-top img-fluid rounded-4"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 border-0">
+          <div class="rounded-4 border-0" style="height: 100%;">
+            <div class="rounded-4" style="height: 100%;">
+                <div id="exclusiveImageBackground" class="rounded-4 pb-1" style="height: 100%;">
+                  <div id="exclusiveImageoverlay" class="rounded-4" style="height: 100%;"></div>
+                  <div class="content text-reset ms-4">
+                      <h1 class="card-title">Get Exclusive on</h5>
+                      <h1 class="card-title">Sunday, 12th March 2023</h1>
+                      <div class="d-flex mt-5">
+                      <div class="countDown">
+                      <h5 class="card-text countDownText">Countdown</h5>
+                    </div>
+                      <div class="daysAndHrs ms-4 ">
+                        <hr/>
+                        <h1 class="text-warning">19 Days</h1>
+                        <hr/>
+                        <h1 class="text-warning">21 Hrs</h1>
+                        <hr/>
+                        <div class="d-flex">
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-asterisk logoimage"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"
+                        />
+                      </svg>
+                      <h4 class="ms-5 my-auto">X</h4>
+                      <div class="col-md-3 ms-5 my-auto">
+                        <img
+                          src="./images/colProfile.jpg"
+                          id="colabProfileImage2"
+                          class="card-img-top rounded-circle"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                    </div>
+                      </div>
+                      
+                    <div class="registerBtn">
+                      <button class="btn btn-light rounded-pill px-5 py-3">
+                        Register
+                      </button>
+                      <span class="learn-more">Learn more</span>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Best selling -->
+    <div class="mt-5">
+      <div class="d-flex sellingTitle">
+        <p class="text-center fw-bolder fs-1 ms-auto">BEST SELLER OUR VESON</p>
+        <p class="fw-bolder fs-4 my-auto me-auto ms-2" style="color: gray;">/22</p>
+      </div>
+      <div class="row pt-2">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div>
+            <div>
+               <div class="row row-cols-1 row-cols-md-2 g-2">
+                <div class="card mb-3 border-0" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-6">
+                      <img src="./images/bestSel1.jpg" class="img-fluid rounded-3 bestSelImages" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="ms-2">
+
+                        <p class="card-text">Avaliable</p>
+                        <h5>Veson Series</h5>
+                        <h5>VII - Unisex</h5>
+                        <h4>$80.00</h4>
+
+                        <!-- Star rating -->
+                         <div class="d-flex">
+                          <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                          </div>
+                          <p class="ms-2">(60)</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3 border-0" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-6">
+                      <img src="./images/bestSel2.jpg" class="img-fluid rounded-3 bestSelImages" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="ms-2">
+
+                        <p class="card-text">Avaliable</p>
+                        <h5>Veson Series</h5>
+                        <h5>VII - Unisex</h5>
+                        <h4>$80.00</h4>
+                        
+                        <!-- Star rating -->
+                        <div class="d-flex">
+                          <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                          </div>
+                          <p class="ms-2">(60)</p>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3 border-0" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-6">
+                      <img src="./images/bestSel3.jpg" class="img-fluid rounded-3 bestSelImages" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="ms-2">
+
+                        <p class="card-text">Avaliable</p>
+                        <h5>Veson Series</h5>
+                        <h5>VII - Unisex</h5>
+                        <h4>$80.00</h4>
+                        
+                        <!-- Star rating -->
+                        <div class="d-flex">
+                          <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                          </div>
+                          <p class="ms-2">(60)</p>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3 border-0" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-6">
+                      <img src="./images/bestSel4.jpg" class="img-fluid rounded-3 bestSelImages" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="ms-2">
+
+                        <p class="card-text">Avaliable</p>
+                        <h5>Veson Series</h5>
+                        <h5>VII - Unisex</h5>
+                        <h4>$80.00</h4>
+                        
+                        <!-- Star rating -->
+                        <div class="d-flex">
+                          <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                          </div>
+                          <p class="ms-2">(60)</p>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+              <button class="btn btn-outline-dark rounded-pill mt-4 position-relative start-50 translate-middle">
+                See More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 rounded-4 border-0">
+          <div>
+            <div>
+              <img src="./images/bestSel2Big.jpg" class="card-img-top rounded-4" style="object-fit: cover; height: 45rem;" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- Email and Learn More card -->
+      <div class="marquee-w">
+        <div class="marquee">
+            <span>* ELEVATE YOUR WARDROBE WITH OUR UNIQUE DESIGNS&nbsp;&nbsp;&nbsp;</span>
+        </div>
+        <div class="marquee marquee2">
+            <span>* ELEVATE YOUR WARDROBE WITH OUR UNIQUE DESIGNS&nbsp;&nbsp;&nbsp;</span>
+        </div>
+      </div>
+      
+      <div>
+        <div class="ELCard rounded-4">
+          <div class="overlay rounded-4" ></div>
+          <div class="content txtArea ms-4">
+            <h1 style="color: orange;">
+              GET AHEAD OF THE FASHION GAME AND BE THE FIRST TO SHOP OUR LATEST
+              COLLECTION
+            </h1>
+            <p>
+              Sign up for early access and discover a world of fashion before
+              anyone else. Don't miss out on your chance to elevate your
+              wardrobe with our exclusive designs.
+            </p>
+          </div>  
+            <div class="d-flex content me-4">
+              <div class="subscribe-form " style="width: 30%; margin-left: auto;">
+                <input type="email" placeholder="Your Email Address"/>
+                <button type="submit">→</button>
+              </div>
+              <div class="subscribe-form">
+                <span class="learn-more">Learn more</span>
+              </div>
+            </div>          
+        </div>
+      </div>
+
+      <!-- Footer -->      
+      <footer class="footer">
+        <hr/>
+      <div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="logo">
+              <img src="./images/VESON.png" style="height: 80px; width: auto;" alt="Veson Logo">
+            </div>
+            <div class="tagline">
+              FASHION FOR ALL, EVERY DAY
+            </div>
+          </div>
+          <div class="col-md-2 footer-links">
+            <h5>Navigation</h5>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Collection</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 footer-links">
+            <h5>Collection</h5>
+            <ul>
+              <li><a href="#">New Arrivals</a></li>
+              <li><a href="#">Men Collection</a></li>
+              <li><a href="#">Women Collection</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 footer-links">
+            <h5>Our Company</h5>
+            <ul>
+              <li><a href="#">Store</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-links">
+            <h5>Contact</h5>
+            <ul>
+              <li>veson@info.com</li>
+              <li>+62 850 3320 0900</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row bottom-bar">
+          <div class="col-md-12 d-flex ms-2" style="justify-content: space-between; width: 95%;">
+            <p>Copyright © 2023 Veson, All rights reserved</p>
+              <a class="lastLinks" href="#">Customers Service</a>
+              <a class="lastLinks" href="#">Term & Conditions</a>
+              <a class="lastLinks" href="#">Privacy Policy</a>
+          </div><hr/>
+        </div>
+      </div>
+    </footer>
+    </div>
+  </body>
+</html>
